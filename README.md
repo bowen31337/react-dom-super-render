@@ -12,6 +12,31 @@ npm install --save react-dom-super-render
 
 ## Usage
 
+index.html
+
+```
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+
+    <title>react-dom-super-render</title>
+  </head>
+
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+  </body>
+</html>
+
+```
+index.js
 ```jsx
 import React from 'react'
 import ReactDOM from 'react-dom'
