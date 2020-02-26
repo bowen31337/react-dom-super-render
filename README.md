@@ -13,17 +13,18 @@ npm install --save react-dom-super-render
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
 
-import MyComponent from 'react-dom-super-render'
+import ReactDomRender from 'react-dom-super-render'
 
-class Example extends Component {
-  render () {
-    return (
-      <MyComponent />
-    )
-  }
-}
+//second argument is enum
+//type secondArg = "before" | "after" | "append" | "prepend" | "replaceWith"; 
+//default value "replaceWith"
+const superRender = ReactDomRender(ReactDOM.render,'replaceWith')
+
+superRender(<App />, root)
 ```
 
 ## License
