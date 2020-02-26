@@ -1,6 +1,6 @@
 {
   "name": "react-dom-super-render",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "enhance ReactDom.render method",
   "author": "https://github.com/bowen31337",
   "license": "MIT",

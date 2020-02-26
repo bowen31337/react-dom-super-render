@@ -52,6 +52,8 @@ const superRender = ReactDomRender(ReactDOM.render,'replaceWith')
 superRender(<App />, root)
 ```
 
+Demo Page rendered from the codes is [https://bowen31337.github.io/react-dom-super-render/](https://bowen31337.github.io/react-dom-super-render/)
+
 ## License
 
-MIT © [https://github.com/bowen31337](https://github.com/https://github.com/bowen31337)
+MIT © [https://github.com/bowen31337](https://github.com/bowen31337)
