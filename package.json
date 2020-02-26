@@ -4,6 +4,7 @@
   "description": "enhance ReactDom.render method",
   "author": "https://github.com/bowen31337",
   "license": "MIT",
+  "homepage": "https://bowen31337.github.io/react-dom-super-render",
   "repository": "https://github.com/bowen31337/react-dom-super-render",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
